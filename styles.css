@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+  font-size: 24pt;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+  background: #242458;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #1a5974;
+  color: rgb(197, 77, 77);
+  z-index: 1000;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 1em;
+}
+
+nav ul li a {
+  color: rgb(243, 244, 247);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff6347;
+}
+
+section {
+  min-height: 100vh;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#home {
+  background: linear-gradient(135deg, #05d621, #fad0c4);
+  color: rgb(49, 21, 134);
+}
+
+#about, #skills {
+  background: linear-gradient(135deg, #38bb4a, #d3e782);
+  color: #010202;
+}
+
+#projects {
+  background: #9bd14f;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+}
+
+.project {
+  background: #d3d6d1;
+  padding: 1.5em;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(56, 41, 41, 0.598);
+  max-width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(119, 228, 97, 0.991);
+}
+
+#contact {
+  background: linear-gradient(135deg, #38bb4a, #d3e782);
+
+}
+
+form {
+  width: 100%;
+  max-width: 400px;
+}
+
+form label {
+  display: block;
+  margin: 1em 0 0.5em;
+}
+
+form input, form textarea, form button {
+  width: 100%;
+  padding: 0.8em;
+  margin-bottom: 1em;
+}
+
+form button {
+  background: #4a1911;
+  color: rgb(146, 143, 56);
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+form button:hover {
+  background: #5b4743;
+}
