@@ -25,6 +25,8 @@ By leveraging technologies like **HTML**, **CSS**, and **JavaScript**, and incor
 
 The outcome is more than just a website; it’s a personal statement of your craftsmanship, attention to detail, and dedication to excellence. Whether you're a student, a professional, or a freelancer, a well-designed portfolio with advanced animations not only highlights your technical capabilities but also sets you apart in a competitive digital landscape, creating a strong foundation for networking, career growth, or securing new opportunities.
 
+**OUTPUT OF THE TASK**
+![Screenshot 2025-01-03 154845](https://github.com/user-attachments/assets/4cd22144-8bb3-4d61-baad-8ee12f2dc93b)
 
 
 
